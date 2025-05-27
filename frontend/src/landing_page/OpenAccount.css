@@ -1,0 +1,35 @@
+.signup-btn {
+  width: auto;             /* Let it size to content */
+  min-width: 200px;        /* Enough space for "Sign up for free" */
+  max-width: 330px;
+  white-space: nowrap;     /* Prevent text wrapping */
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 1222px) {
+  .signup-btn {
+    min-width: 200px;      /* Still enough for full text */
+    font-size: 1.1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .signup-btn {
+    min-width: 180px;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .signup-btn {
+    min-width: 150px;
+    font-size: 0.95rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
